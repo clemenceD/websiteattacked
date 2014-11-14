@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+RewriteEngine  on
+RewriteRule ^notre\-vision/$ http://www.primatice.com/ [QSA,L,R=301]
+RewriteRule ^contactez\-nous/$ http://www.primatice.com/ [QSA,L,R=301]
+RewriteRule ^notre\-produit/$ http://www.primatice.com/ [QSA,L,R=301]
+RewriteRule ^qui\-sommes\-nous/$ http://www.primatice.com/ [QSA,L,R=301]
+RewriteRule ^search(.*)$ http://www.primatice.com/404.php [QSA,L,R=404]
+
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+

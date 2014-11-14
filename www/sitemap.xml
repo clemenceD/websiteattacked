@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.primatice.com/wp-content/plugins/google-sitemap-plugin/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.primatice.com/</loc>
+    <lastmod>2014-09-17T17:44:28+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://www.primatice.com/accueil/?lang=en</loc>
+    <lastmod>2014-09-17T18:55:48+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://www.primatice.com/blog/</loc>
+    <lastmod>2014-03-18T09:27:37+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+</urlset>

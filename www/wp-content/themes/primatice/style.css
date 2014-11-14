@@ -1,0 +1,160 @@
+/*
+Theme Name: Starter
+Author: Starter
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: Starter
+Domain Path: /languages/
+Description: Starter
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+	-webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+	-moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+	box-sizing:         border-box;
+}
+body {
+	background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+a img {
+	border: 0;
+}
+
+@font-face {
+    font-family: 'ITCAvantGardeGothicStdDemi';
+    src: url('fonts/itcavantgardestd-bk.eot');
+    src: url('fonts/itcavantgardestd-bk.eot') format('embedded-opentype'),
+         url('fonts/itcavantgardestd-bk.woff2') format('woff2'),
+         url('fonts/itcavantgardestd-bk.woff') format('woff'),
+         url('fonts/itcavantgardestd-bk.ttf') format('truetype'),
+         url('fonts/itcavantgardestd-bk.svg#ITCAvantGardeGothicStdDemi') format('svg');
+}
+
+.text-black {
+	color: #000!important;
+}
+
+.p-b-50 {
+	padding-bottom: 50px;
+}
+
+
+#home_banner {
+	background-image: url("../../uploads/2014/02/banner-11.jpg");
+width: 100%;
+height: 488px;
+text-align: center;
+float: left;
+position: relative;
+margin-bottom: 25px;
+}
+
+#home_banner .content {
+margin-top: 14.3333%;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#home_banner h3 {
+	font-size: 3.5em;
+	font-family: 'ITCAvantGardeGothicStdDemi';
+	text-transform: uppercase;
+}
+
+#home_banner h1 {
+font-size: 4em;
+color: #95abb3!important;
+font-family: 'ITCAvantGardeGothicStdDemi';
+font-weight: 200;
+text-transform: uppercase;
+}
+
+
+#flags_language_selector img{
+      margin:1px;
+      border:1px solid #333;
+}
+
+#flags_language_selector {
+	padding-top: 30px;
+}
+
+.feature-blog {
+	background: #000000 url() !important;
+}
+
+#top-bar {
+	opacity: 1!important;
+}
+
+
+
+
